@@ -1,20 +1,26 @@
 # PROG 02: Represent!
 
-Briefly describe your app here.
+Well, currently I only have the straight implementations and the phone to watch implemeentation down. I do not have the watch stuff and the watch to phone things set, but at least it looks kinda pretty right now :D
 
 ## Authors
 
-FirstName LastName ([your_email@berkeley.edu](mailto:your_email@berkeley.edu))
+Jenny Lu ([j.lu@berkeley.edu](mailto:your_email@berkeley.edu))
 
 ## Demo Video
 
-See [your demo video title here] (https://link_to_your_video)
+See [Represent Demo] (https://www.youtube.com/watch?v=6KvGxPFPPcA)
 
 ## Screenshots
 
-<img src="screenshots/main.png" height="400" alt="Screenshot"/>
-
+<img src="screenshots/representscreenshots/homewatch.jpg" height="400" alt="Screenshot"/>
+<img src="screenshots/representscreenshots/mobilemain.jpg" height="400" alt="Screenshot"/>
+<img src="screenshots/representscreenshots/moreinfo.jpg" height="400" alt="Screenshot"/>
+<img src="screenshots/representscreenshots/somedummyreps.jpg" height="400" alt="Screenshot"/>
+<img src="screenshots/representscreenshots/swipers.jpg" height="400" alt="Screenshot"/>
 ## Acknowledgments
 
 * Hat tip to anyone who's code was used
+* http://www.learnandroidwear.com/sample-3/
+* the staff
+* 
 * Any other support
