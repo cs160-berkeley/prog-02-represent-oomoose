@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.jenny.represent.more"
+    tools:showIn="@layout/activity_more">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true"
+        android:id="@+id/scrollView" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_width="108dp"
+                android:layout_height="108dp"
+                android:id="@+id/photo"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/ic_face_24dp"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Name"
+                android:id="@+id/name"
+                android:paddingTop="10dp"
+                android:textSize="16pt"
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/photo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="email"
+                android:id="@+id/email"
+                android:textSize="18sp"
+                android:layout_gravity="center_horizontal"
+                android:layout_below="@+id/party"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="website"
+                android:textSize="18sp"
+                android:id="@+id/website"
+                android:layout_gravity="center_horizontal"
+                android:layout_below="@+id/email"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:paddingTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Commitees"
+                android:id="@+id/committee"
+                android:layout_below="@+id/website"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Committe blah\n another commitee\n"
+                android:id="@+id/committeelist"
+                android:layout_below="@+id/committee"
+                android:paddingBottom="20dp"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Bills"
+                android:id="@+id/textView"
+                android:layout_alignBottom="@+id/committeelist"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="bill1 \nblah bill2\n"
+                android:id="@+id/billslist"
+                android:layout_below="@+id/committeelist"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Term End Date: "
+                android:id="@+id/termend"
+                android:layout_below="@+id/website"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Party"
+                android:id="@+id/party"
+                android:layout_below="@+id/name"
+                android:layout_centerHorizontal="true" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

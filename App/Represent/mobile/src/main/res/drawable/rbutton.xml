@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    android:layout_width="match-parent"
+    android:layout_height="wrap_content"
+    android:text="@string/button_text"
+    android:drawableLeft="@drawable/button_icon"
+    android:drawablePadding="10dp"
+    android:lineSpacingExtra="2dp"
+</selector>

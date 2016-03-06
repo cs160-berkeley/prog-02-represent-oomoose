@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:gravity="center" android:layout_gravity="center"
+    tools:context=".MainActivity" android:orientation="vertical" tools:deviceIds="wear_round"
+    android:background="@drawable/americanflag">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentLeft="false">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Represent!"
+            android:id="@+id/bigfont"
+            android:textSize="12pt"
+            android:textAllCaps="true"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:typeface="sans"
+            android:paddingBottom="10dp"
+            android:textStyle="bold"
+            android:textColor="#f9f9f9" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="9"
+            android:id="@+id/zipcode"
+            android:enabled="true"
+            android:imeOptions="actionGo"
+            android:hint="Enter ZIP code here."
+            android:gravity="center"
+            android:inputType="number"
+            android:layout_gravity="center_horizontal"
+            android:minHeight="10pt"
+            android:typeface="serif"
+            android:textAlignment="center"
+            android:backgroundTint="#aec6c2c2"
+            android:layout_weight="1"
+            android:background="#d3d3d3" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:ems="9"
+            android:layout_height="wrap_content"
+            android:text="Use my Location"
+            android:id="@+id/autolocate"
+            android:minHeight="16pt"
+            android:layout_gravity="center_horizontal|bottom"
+            android:backgroundTint="#c5191313"
+            android:layout_marginTop="5pt"
+            android:textColor="#ffffff"
+
+            android:typeface="normal"
+            android:layout_weight="1" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
