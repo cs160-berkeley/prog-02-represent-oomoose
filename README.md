@@ -12,11 +12,12 @@ See [Represent Demo] (https://www.youtube.com/watch?v=6KvGxPFPPcA)
 
 ## Screenshots
 
-<img src="screenshots/representscreenshots/homewatch.jpg" height="400" alt="Screenshot"/>
-<img src="screenshots/representscreenshots/mobilemain.jpg" height="400" alt="Screenshot"/>
-<img src="screenshots/representscreenshots/moreinfo.jpg" height="400" alt="Screenshot"/>
-<img src="screenshots/representscreenshots/somedummyreps.jpg" height="400" alt="Screenshot"/>
-<img src="screenshots/representscreenshots/swipers.jpg" height="400" alt="Screenshot"/>
+
+<img src="screenshots/representscreenshots/homewatch.JPG" height="400" alt="Screenshot"/>
+<img src="screenshots/representscreenshots/mobilemain.JPG" height="400" alt="Screenshot"/>
+<img src="screenshots/representscreenshots/moreinfo.JPG" height="400" alt="Screenshot"/>
+<img src="screenshots/representscreenshots/somedummyreps.JPG" height="400" alt="Screenshot"/>
+<img src="screenshots/representscreenshots/swipers.JPG" height="400" alt="Screenshot"/>
 ## Acknowledgments
 
 * Hat tip to anyone who's code was used
