@@ -5,47 +5,61 @@ import android.app.FragmentManager;
 import android.content.Context;
 import android.support.wearable.view.CardFragment;
 import android.support.wearable.view.FragmentGridPagerAdapter;
+import android.view.Gravity;
 
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 /**
  * Created by Jenny on 3/4/2016.
  */
+//https://android.googlesource.com/platform/frameworks/base/+/android-5.0.1_r1/docs/html/training/wearables/ui/2d-picker.jd?autodive=0%2F%2F%2F
 public class PagerAdapter extends FragmentGridPagerAdapter {
     private final Context mContext;
-    private List mrows;
-    public PagerAdapter(Context ctx, FragmentManager fm) {
+    private HashMap<String, String[]> data = new HashMap<String, String[]>();
+    private String[] cardorder;
+    // string should have,  name --- part, icon
+
+    public PagerAdapter(Context ctx, FragmentManager fm, HashMap<String, String[]> d) {
         super(fm);
         mContext = ctx;
+        data = d;
+        cardorder = d.keySet().toArray(new String[d.size()]);
+    }
+    public void updateAdapter(HashMap<String, String[]> d2) {
+        data = d2;
+        this.notifyDataSetChanged();
+        cardorder = d2.keySet().toArray(new String[d2.size()]);
+    }
 
-    }
-    private static class Page {
-        // static resources
-        int nameRes;
-        int partyRes;
-        int iconRes;
-    }
-    private final Page[][] PAGES = new Page[2][3];
+
     @Override
     public Fragment getFragment(int row, int col) {
-        Page page = PAGES[row][col];
-        String name =
-                page.nameRes != 0 ? mContext.getString(page.nameRes) : null;
-        String party =
-                page.partyRes != 0 ? mContext.getString(page.partyRes) : null;
-        CardFragment fragment = CardFragment.create(name, party, page.iconRes);
+        if (row == 2) {
+            CardFragment regional = CardFragment.create("2012 Presidential Vote", "blaaah", R.drawable.americanflag);
+            regional.setCardGravity(Gravity.CENTER);
+        }
+        String name = cardorder[col];
+        String[] unpack = data.get(name);
+        CardFragment fragment = CardFragment.create(name, unpack[0], Integer.parseInt(unpack[1]));
 
         // Advanced settings (card gravity, card expansion/scrolling)
-
+        fragment.setCardGravity(Gravity.CENTER);
         return fragment;
     }
     @Override
     public int getRowCount() {
-        return PAGES.length;
+        return 2;
     }
     // Obtain the number of pages (horizontal)
     @Override
     public int getColumnCount(int rowNum) {
-        return PAGES[rowNum].length;
+        if (rowNum ==1) {
+            return cardorder.length;
+        } else if (rowNum ==2) {
+            return 1;
+        }
+        return 0;
     }
 }

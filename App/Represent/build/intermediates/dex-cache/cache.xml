@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Jenny\AndroidStudioProjects\Represent\wear\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="C:\Users\Jenny\AndroidStudioProjects\Represent\wear\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-8.4.0_1d050c2954a1b998fe49dbf5dde6d2fc1d8f1058.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jenny\AndroidStudioProjects\Represent\wear\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="673d77a5bbddd766037f088e775df525c46407f0">
+        <dex dex="C:\Users\Jenny\AndroidStudioProjects\Represent\wear\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.2.1_ddf9ba531fcb0899091082c6d28da7cfa21af72e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jenny\AndroidStudioProjects\Represent\wear\build\intermediates\exploded-aar\com.google.android.support\wearable\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="58b928ccbaf9090c632f278d6bd31e1ae42f2457">
+        <dex dex="C:\Users\Jenny\AndroidStudioProjects\Represent\wear\build\intermediates\pre-dexed\debug\com.google.android.support-wearable-1.3.0_8b44497552a5178ced275a9eb0dcda77f3610c8c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jenny\AndroidStudioProjects\Represent\wear\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e167a34eaca0b31704212f43f9576ea84e05046f">
+        <dex dex="C:\Users\Jenny\AndroidStudioProjects\Represent\wear\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-wearable-8.4.0_1a53bd30951236974e7cc66ed8c07b47306795c9.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jenny\AndroidStudioProjects\Represent\wear\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="C:\Users\Jenny\AndroidStudioProjects\Represent\wear\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-8.4.0_53d413e6bccfb6efc16ec8f2a3621e5ebd3fdf42.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jenny\AndroidStudioProjects\Represent\wear\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e3885783ff8926ed9e2fdcd16816c2e1e73e7aee">
+        <dex dex="C:\Users\Jenny\AndroidStudioProjects\Represent\wear\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.2.1_912e8be994427dee188e2f58bd1cb16d386ad58c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jenny\AndroidStudioProjects\Represent\wear\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="04de44f90606c77f3b28cf44861f306290505aac">
+        <dex dex="C:\Users\Jenny\AndroidStudioProjects\Represent\wear\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-maps-8.4.0_ddbf9f4c9b239f8bc7fbd25c940c70deb521f725.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jenny\AndroidStudioProjects\Represent\wear\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
+        <dex dex="C:\Users\Jenny\AndroidStudioProjects\Represent\wear\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.2.1_1e3993664a7ac76f75549d8737d456251b202fd7.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jenny\AppData\Local\Android\sdk1\extras\android\m2repository\com\android\support\support-annotations\23.2.1\support-annotations-23.2.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
+        <dex dex="C:\Users\Jenny\AndroidStudioProjects\Represent\wear\build\intermediates\pre-dexed\debug\support-annotations-23.2.1_83846d48ac9809748fc8bd71e686eb2658494b41.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jenny\AndroidStudioProjects\Represent\wear\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
+        <dex dex="C:\Users\Jenny\AndroidStudioProjects\Represent\wear\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.2.1_6f794841f417d70d12ee259aa0fd439dc9e7b44a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jenny\AndroidStudioProjects\Represent\wear\build\intermediates\exploded-aar\com.android.support\design\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="72961d8b453b46e277702f18de9d210bc019e36e">
+        <dex dex="C:\Users\Jenny\AndroidStudioProjects\Represent\wear\build\intermediates\pre-dexed\debug\com.android.support-design-23.2.1_abe21e738e5f0284969db4b6362f29a67d1c792a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jenny\AndroidStudioProjects\Represent\wear\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\libs\internal_impl-23.2.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
+        <dex dex="C:\Users\Jenny\AndroidStudioProjects\Represent\wear\build\intermediates\pre-dexed\debug\internal_impl-23.2.1_f3ee90fb5e98146999d6f5f097b7079c10f8730a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jenny\AndroidStudioProjects\Represent\wear\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
+        <dex dex="C:\Users\Jenny\AndroidStudioProjects\Represent\wear\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.2.1_6e3a76b3c443332df7cddfb789382c850a2a6dcd.jar" />
+    </item>
+
+</items>

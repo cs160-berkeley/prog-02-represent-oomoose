@@ -23,10 +23,23 @@ public class WatchListener extends WearableListenerService {
             Intent intent = new Intent(this, candidates.class );
             intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
             //you need to add this flag since you're starting a new activity from a service
-            intent.putExtra("ZIPCODE", "94720");
+            intent.putExtra("type", 1 );
+            intent.putExtra("ZIPCODE", value);
             startActivity(intent);
             Log.d("T", "about to start watch MainActivity with ZIPCODE");
-        } else {
+        } else if (messageEvent.getPath().equalsIgnoreCase("/LOCATION")) {
+            String value = new String(messageEvent.getData(), StandardCharsets.UTF_8);
+            String[] latlong = value.split("\n");
+            Intent intent = new Intent(this, candidates.class );
+            intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+            //you need to add this flag since you're starting a new activity from a service
+            intent.putExtra("type", 0);
+            intent.putExtra("latitude", Double.parseDouble(latlong[0]));
+            intent.putExtra("longitude", Double.parseDouble(latlong[1]));
+            startActivity(intent);
+            Log.d("T", "about to start watch MainActivity with POSITION");
+
+        }else {
             super.onMessageReceived( messageEvent );
         }
 

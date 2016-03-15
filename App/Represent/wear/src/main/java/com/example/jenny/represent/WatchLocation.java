@@ -24,16 +24,16 @@ public class WatchLocation extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_watch_location);
 
-        Intent intent = getIntent();
-        Bundle extras = intent.getExtras();
+//        Intent intent = getIntent();
+//        Bundle extras = intent.getExtras();
         Button zipbutton = (Button) findViewById(R.id.autolocate);
         EditText zipinput = (EditText) findViewById(R.id.zipcode);
 
-        if (extras != null) {
-            String zip = extras.getString("ZIPCODE");
-            zipbutton.setText(zip); //for testing purposes
-
-        }
+//        if (extras != null) {
+//            String zip = extras.getString("ZIPCODE");
+//            zipbutton.setText(zip); //for testing purposes
+//
+//        }
 
         zipbutton.setOnClickListener(new View.OnClickListener() {
             @Override

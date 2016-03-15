@@ -48,20 +48,37 @@ public class PhoneToWatchService extends Service{
         // Which cat do we want to feed? Grab this info from INTENT
         // which was passed over when we called startService
         Bundle extras = intent.getExtras();
-        final String zipcode = extras.getString("ZIPCODE");
+        final int type = extras.getInt("type");
+        if (type == 1) {
+            final int zipcode = extras.getInt("zipcode");
+            // Send the message with the cat name
+            new Thread(new Runnable() {
+                @Override
+                public void run() {
+                    //first, connect to the apiclient
+                    mApiClient.connect();
+                    //now that you're connected, send a massage with the cat name
+                    sendMessage("/" + "ZIPCODE", String.valueOf(zipcode));
+                }
+            }).start();
 
-        // Send the message with the cat name
-        new Thread(new Runnable() {
-            @Override
-            public void run() {
-                //first, connect to the apiclient
-                mApiClient.connect();
-                //now that you're connected, send a massage with the cat name
-                sendMessage("/" + "ZIPCODE", zipcode);
-            }
-        }).start();
+            return START_STICKY;
+        }    else {
+            final double lat = extras.getDouble("latitude");
+            final double longi = extras.getDouble("longitude");
+            // Send the message with the cat name
+            new Thread(new Runnable() {
+                @Override
+                public void run() {
+                    //first, connect to the apiclient
+                    mApiClient.connect();
+                    //now that you're connected, send a massage with the cat name
+                    sendMessage("/" + "POSITION", lat + "\n" + longi);
+                }
+            }).start();
 
-        return START_STICKY;
+            return START_STICKY;
+        }
     }
 
     @Override //remember, all services need to implement an IBiner
