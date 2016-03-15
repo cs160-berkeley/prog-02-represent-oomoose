@@ -1,6 +1,8 @@
 # PROG 02: Represent!
 
-Well, while making this app i really was plunged headfirst into apis and really spent a lot of time figureing things out but failed so hard. Due to technical issues, I personally was not able to test out the phone-> watch part beyond part 2B because my computer kept crashing, so I do not think my watch emulator can handle my app? 
+Well, while making this app i really was plunged headfirst into apis and really spent a lot of time figureing things out but failed so hard. Due to technical issues, I personally was not able to test out the phone-> watch part beyond part 2B because my computer kept crashing, so I do not think my watch emulator can handle my app? Hopefully graders can test it and tell me if it works. I spent a lot of time on this project and am not sure whether to be disappointed in my programming skills/poor results. 
+
+The app itself currently only is able to implement the sunshine api and the location api on the watch and on the mobile app. I have not integrated twitter, or the shaking. 
 
 ## Authors
 
@@ -30,5 +32,5 @@ See [Represent Demo] (https://www.youtube.com/watch?v=6KvGxPFPPcA)
 * Hat tip to anyone who's code was used
 * http://www.learnandroidwear.com/sample-3/
 * the staff
-* 
+* i put references in the code itself!
 * Any other support
