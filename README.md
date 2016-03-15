@@ -1,6 +1,6 @@
 # PROG 02: Represent!
 
-Well, currently I only have the straight implementations and the phone to watch implemeentation down. I do not have the watch stuff and the watch to phone things set, but at least it looks kinda pretty right now :D
+Well, while making this app i really was plunged headfirst into apis and really spent a lot of time figureing things out but failed so hard. Due to technical issues, I personally was not able to test out the phone-> watch part beyond part 2B because my computer kept crashing, so I do not think my watch emulator can handle my app? 
 
 ## Authors
 
@@ -18,6 +18,13 @@ See [Represent Demo] (https://www.youtube.com/watch?v=6KvGxPFPPcA)
 <img src="screenshots/representscreenshots/moreinfo.JPG" height="400" alt="Screenshot"/>
 <img src="screenshots/representscreenshots/somedummyreps.JPG" height="400" alt="Screenshot"/>
 <img src="screenshots/representscreenshots/swipers.JPG" height="400" alt="Screenshot"/>
+<img src="screenshots/representscreenshots/more.JPG" height="400" alt="Screenshot"/>
+<img src="screenshots/representscreenshots/reppage.JPG" height="400" alt="Screenshot"/>
+<img src="screenshots/representscreenshots/Screenshot_2016-03-14-23-54-00.png" height="400" alt="Screenshot"/>
+<img src="screenshots/representscreenshots/Screenshot_2016-03-14-23-17-11.png" height="400" alt="Screenshot"/>
+
+
+
 ## Acknowledgments
 
 * Hat tip to anyone who's code was used
