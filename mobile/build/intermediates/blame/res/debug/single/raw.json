@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\Jenny\\AndroidStudioProjects\\Represent\\mobile\\build\\intermediates\\res\\merged\\debug\\raw\\tw__cacerts",
+        "source": "C:\\Users\\Jenny\\AndroidStudioProjects\\Represent\\mobile\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\twitter-core\\1.6.5\\res\\raw\\tw__cacerts"
+    },
+    {
+        "merged": "C:\\Users\\Jenny\\AndroidStudioProjects\\Represent\\mobile\\build\\intermediates\\res\\merged\\debug\\raw\\gtm_analytics",
+        "source": "C:\\Users\\Jenny\\AndroidStudioProjects\\Represent\\mobile\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-analytics\\7.5.0\\res\\raw\\gtm_analytics"
+    }
+]

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Represent</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_representatives">Representatives</string>
+    <string name="title_activity_more">more</string>
+    <string name="title_activity_locationer">Zipcode</string>
+</resources>
